@@ -1,0 +1,137 @@
+.choose {
+
+    &__date {
+        font-family: Helvetica;
+        font-size: 16px;
+        font-stretch: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        text-align: center;
+        color: #040505;
+    }
+
+    &__restart {
+        width: 35px;
+        height: 35px;
+        margin: 16px 170px auto;
+    }
+
+    &__box {
+        display: flex;
+
+        &-two {
+            margin-top: 47px;
+        }
+
+        &-itemOne {
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.25;
+            color: $orange;
+            margin-left: 12px;
+        }
+
+        &-itemTwo {
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.25;
+            color: $orange;
+            position: fixed;
+            right: 0;
+            margin-right: 12px;
+        }
+    }
+
+    &__plates {
+        display: flex;
+
+        &-item {
+            width: 109px;
+            height: 109px;
+            background-size: 100%;
+            margin-left: 12px;
+            margin-top: 23px;
+            box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+
+
+            &-one {
+                background: url('/assets/images/breakfastOne.png')no-repeat;
+            }
+
+            &-two {
+                background: url('/assets/images/breakfastTwo.png')no-repeat;
+            }
+
+            &-three {
+                background: url('/assets/images/breakfastThree.png')no-repeat;
+            }
+
+            &-four {
+                background: url('/assets/images/mealOne.png')no-repeat;
+            }
+
+            &-five {
+                background: url('/assets/images/mealTwo.png')no-repeat;
+
+            }
+
+            &-six {
+                background: url('/assets/images/mealThree.png')no-repeat;
+            }
+
+            &-seven {
+                background: url('/assets/images/dessertOne.png')no-repeat;
+            }
+
+            &-height {
+                background: url('/assets/images/dessertTwo.png')no-repeat;
+            }
+
+            &-nine {
+                background: url('/assets/images/dessertThree.png')no-repeat;
+            }
+
+            &-circle {
+                background-color: #9fe271;
+                width: 34px;
+                height: 34px;
+                border-radius: 50%;
+                margin-left: 73px;
+                margin-top: 73px;
+            }
+
+            &-number {
+                font-family: $font-main;
+                font-size: 24px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.25;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+            }
+        }
+    }
+
+    &__btn {
+        width: 243px;
+        height: 42px;
+        border-radius: 11px;
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: $orange;
+        margin: 25px auto;
+
+        &-text {
+            font-family: $font-main;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.25;
+            text-align: center;
+            color: $white;
+            padding-top: 8px;
+        }
+    }
+}

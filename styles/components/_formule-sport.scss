@@ -1,0 +1,60 @@
+.arrow{
+    margin-top: 44px;
+    margin-left: 12px;
+}
+.backgroundTwo{
+    margin-top: 64px;
+    width: 375px;
+    height: 303px;
+    border: solid 1px #707070;
+    background: url('/assets/images/formule-sport.png')no-repeat;
+    background-color: #1a1100;
+
+    &__textOne{
+    font-family: $font-main;
+    font-size: 26px;
+    line-height: 1.23;
+    text-align: center;
+    color: $white;
+    margin-top: 125px;
+    }
+    &__textTwo{
+        font-family: $font-main;
+        font-size: 26px;
+        line-height: 1.23;
+        font-weight: bold;
+        text-align: center;
+        color: $white;
+        }
+}
+.text{
+    width: 302px;
+    height: 100px;
+    opacity: 0.91;
+    font-family: $font-main;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: center;
+    margin: 0 auto;
+    color: $brown;
+    margin-top: 72px;
+}
+
+.discover{
+    width: 149px;
+    height: 24px;
+    font-family: $font-main;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0 auto;
+    margin-top: 72px;
+    letter-spacing: normal;
+    text-align: center;
+    color: $orange;
+}
+
+.arrowOrange{
+    margin-top: 44px;
+    margin-left: 165.5px;
+}

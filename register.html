@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.scss">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="./explanation.html"><img class="header__arrow" src="./assets/images/back-arrow.png"
+                alt="back-arrow"></a>
+        <p class="header__title">S'inscrire</p>
+    </div>
+    <form class="form" action="./home.html">
+        <label class="form__label">Mail</label><br>
+        <input type="text" class="form__input">
+        <label class="form__label">Mot de passe</label>
+        <input type="text" class="form__input">
+        <div class="form__box">
+            <div class="form__box-item">
+                <label class="form__box-item-title">Nom</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+            <div class="form__box-item">
+                <label class="form__box-item-title">Prénom</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+            <div class="form__box-item">
+                <label class="form__box-item-title">Civilité</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+        </div>
+        <label class="form__label">Adresse</label><br>
+        <input type="text" class="form__input">
+        <div class="form__box">
+            <div class="form__box-item">
+                <label class="form__box-item-title">Ville</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+            <div class="form__box-item form__box-item--code">
+                <label class="form__box-item-title">Code postal</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+        </div>
+        <label class="form__label">Numéro de carte</label><br>
+        <input type="text" class="form__input">
+        <label class="form__label">Nom de la carte</label><br>
+        <input type="text" class="form__input">
+        <div class="form__box">
+            <div class="form__box-item">
+                <label class="form__box-item-title">Date d'expiration</label><br>
+                <input type="text" class="form__box-item-input">
+            </div>
+            <div class="form__box-item form__box-item--crypto">
+                <label class="form__box-item-title">Cryptogramme</label><br>
+                <input type="text" class="form__box-item-input form__box-item-input--crypto">
+            </div>
+        </div>
+        <a href="./home.html">
+            <input type="submit" class="form__submit" value="Sauvegarder">
+        </a>
+
+    </form>
+</body>
+
+</html>

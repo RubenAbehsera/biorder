@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    height: 44px;
+    margin-top: 44px;
+    align-items: center;
+    margin-bottom: 40px;
+    &-choose{
+        margin-bottom: 0px;
+    }
+    &__arrow {
+        margin-left: 12px;
+    }
+    
+    &__title {
+        font-family: $font-title;
+        font-size: 28px;
+        font-weight: bold;
+        margin-left: 12px;
+        color: $orange;
+        margin-left: 67.5px;
+        &-choose{
+            margin-left: 35.5px;
+            
+        }
+    }
+}
+
+.form {
+    &__label {
+        font-family: $font-main;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: $orange;
+        margin-left: 12px;
+    }
+
+    &__input {
+        width: 351px;
+        height: 44px;
+        opacity: 0.48;
+        border-radius: 14px;
+        background-color: #bdbea0;
+        margin-left: 12px;
+        margin-bottom: 8px;
+    }
+
+    &__box {
+        display: flex;
+        margin-bottom: 8px;
+
+        &-item {
+            &-title {
+                width: 48px;
+                height: 22px;
+                font-family: $font-main;
+                font-size: 20px;
+                font-weight: bold;
+                letter-spacing: normal;
+                text-align: center;
+                color: $orange;
+                margin-left: 12px;
+            }
+        
+            &-input {
+                width: 103px;
+                height: 44px;
+                opacity: 0.48;
+                border-radius: 14px;
+                background-color: #bdbea0;
+                margin-top: 8px;
+                margin-left: 12px;
+                &--crypto{
+                    margin-left: 34px;
+                }
+            }
+
+        &--code{
+            margin-left: 123px;
+        }
+        &--crypto{
+            margin-left: 57px;
+        }
+        }
+    }
+    &__submit{
+        width: 230px;
+        height: 44px;
+        border-radius: 18px;
+        border: solid 1px #707070;
+        background-color: #dfdfd0;
+        -webkit-text-stroke: 1px #eeaf5a;
+        margin-left: 79px;
+        font-family: $font-main;
+        font-size: 28px;
+        line-height: 1.2;
+        text-align: center;
+        color: $orange;
+    }
+}

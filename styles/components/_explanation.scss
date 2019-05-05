@@ -1,0 +1,103 @@
+.explanation{
+
+    &__title{
+        font-family: $font-title;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.25;
+        color: $orange;
+        margin-top: 44px;
+        text-align: center;
+    }
+    &__box{
+        background: url('/assets/images/backgroundCard.png')no-repeat;
+        background-position: center;
+        width: 375px;
+        height: 295px;
+        background-color: #000000;
+        margin-top: 31px;
+
+        &-top{
+            font-family: $font-main;
+            font-size: 17px;
+            font-weight: bold;
+            line-height: 1.24;
+            text-align: center;
+            color: $white;
+            padding-top: 54px;
+        }
+        &-mid{
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.25;
+            text-align: center;
+            color:$white;
+            margin-top: 54px;
+        }
+        &-bot{
+            width: 288px;
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.25;
+            color:$white;
+            padding-top: 54px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    &__first{
+        font-family: $font-main;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        color: #040505;
+        margin-top: 22px;
+    }
+    &__second{
+        padding-top: 54px;
+        width: 274px;
+        height: 100px;
+        font-family: $font-main;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+        color: #000000;
+        margin: 0 auto;
+    }
+    &__three{
+        padding-top: 112px;
+        width: 211px;
+        height: 20px;
+        font-family: $font-main;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        color: #040505;
+        margin: 0 auto;
+    }
+    &__bottom{
+        display: flex;
+        margin-top: 32px;
+        &-item{
+            width: 109px;
+            height: 88px;
+            border-radius: 10px;
+            background-color: $orange;
+            margin-left: 12px;
+            font-family: $font-main;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            color: $white;
+            padding-top: 35px;
+
+            &-three{
+            padding-top: 25px;
+            }
+        }
+    }
+}

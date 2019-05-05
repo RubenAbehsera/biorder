@@ -1,0 +1,123 @@
+
+.headerState{
+    margin-top: 44px;
+    display: flex;
+    align-items: center;
+    &__arrow{
+        margin-left: 12px;
+    }
+    &__title{
+        height: 32px;
+        font-family: $font-title;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.23;
+        text-align: center;
+        color: $orange;
+        margin-left: 10.5px;
+    }
+    &__number{
+        font-family: Helvetica;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        color: #040505;
+    }
+}
+.state{
+    &__title{
+    font-family: $font-main;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    color: $orange;
+    margin-top: 32px;
+    margin-left: 12px;
+    text-decoration: underline $orange;
+    }
+    &__date{
+        margin-top: 16px;
+        font-family: $font-main;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: left;
+        color: #040505;
+        margin-left: 12px;
+    }
+    &__resume{
+        font-family: $font-main;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        color: $orange;
+        text-decoration: underline $orange;
+        margin-left: 12px;
+    }
+    &__meal{
+        margin-left: 12px;
+        &-title{
+            margin-top: 16px;
+            font-family: $font-main;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 1.2;
+            letter-spacing: normal;
+            text-align: left;
+            color: $orange;
+            margin-bottom: 8px;
+        }
+        &-item{
+            height: 24px;
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            text-align: left;
+            color: #040505;
+        }
+    }
+    &__delivery{
+        font-family: $font-main;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        color: $orange;
+        text-decoration: underline $orange;
+        margin-left: 12px;
+    }
+    &__arrived{
+        font-family: $font-main;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: left;
+        color: #040505;
+        margin-left: 12px;
+        margin-top: 16px;
+    }
+    &__button{
+        width: 243px;
+        height: 42px;
+        border-radius: 11px;
+        box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+        background-color: #eeaf5a;
+        margin: 40px auto;
+        &-text{
+            width: 174px;
+            height: 20px;
+            font-family: $font-main;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.25;
+            text-align: center;
+            color: $white;
+            padding-top: 11px;
+            margin-left: 36px;
+        }
+    }
+}

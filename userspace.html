@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/styles.scss">
+
+    <title>Espace utilisateur</title>
+</head>
+
+<body>
+    <div class="headerUser">
+        <a href="./home.html"><img class="headerUser__arrow" src="./assets/images/back-arrow.png" alt="back-arrow"></a>
+        <p class="headerUser__title ">Espace utilisateur</p>
+    </div>
+    <form action="./home.html" class="userForm">
+        <label class="userForm__label">Formule:</label><br>
+        <select name="select_formule" id="select" class="userForm__input">
+            <option value="0">Classique</option>
+            <option value="1">Sportif</option>
+            <option value="2">Bon Vivant</option>
+        </select>
+        <label class="userForm__label">Mail</label><br>
+        <input type="text" class="userForm__input">
+        <label class="userForm__label">Adresse</label><br>
+        <input type="text" class="userForm__input">
+        <div class="userForm__box">
+            <div class="userForm__box-item">
+                <label class="userForm__box-item-label">Ville</label><br>
+                <input type="text" class="userForm__box-item-input">
+            </div>
+            <div class="userForm__box-item">
+                <label class="userForm__box-item-label">Code Postal</label><br>
+                <input type="text" class="userForm__box-item-input">
+            </div>
+        </div>
+        <label class="userForm__label">Numero de carte</label><br>
+        <input type="text" class="userForm__input">
+        <label class="userForm__label">Nom de la carte</label><br>
+        <input type="text" class="userForm__input">
+        <div class="userForm__box">
+            <div class="userForm__box-item">
+                <label class="userForm__box-item-label">Date d'expiration</label><br>
+                <input type="text" class="userForm__box-item-input">
+            </div>
+            <div class="userForm__box-item">
+                <label class="userForm__box-item-label">Cryptogramme</label><br>
+                <input type="text" class="userForm__box-item-input userForm__box-item-input--crypto">
+            </div>
+        </div>
+        <input type="submit" class="userForm__submit" value="Modifier">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+.headerHistoric {
+    padding-top: 44px;
+    margin-left: 12px;
+    display: flex;
+
+    &__title {
+        width: 222px;
+        font-family: $font-title;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.23;
+        text-align: center;
+        color: $orange;
+        margin-left: 32.5px;
+    }
+}
+
+.historic {
+    margin-left: 12px;
+
+    &__box {
+        width: 351px;
+        height: 139px;
+        box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+        background-color: $orange;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+
+        &--color {
+            background: #68912e;
+        }
+
+        &-text {
+            height: 90px;
+            width: 207px;
+            margin-left: 72px;
+            margin-top: 24px;
+            text-align: center;
+            color: $white;
+
+            &-title {
+                width: 207px;
+                height: 22px;
+                font-family: $font-main;
+                font-size: 18px;
+                font-weight: bold;
+                line-height: 1.22;
+                text-align: center;
+                color: $white;
+                margin: 0 auto;
+            }
+
+            &-state {
+                width: 170px;
+                height: 44px;
+                font-family: LibreBaskerville;
+                font-size: 18px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.22;
+                letter-spacing: normal;
+                text-align: center;
+                color: $white;
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+
+        &-img {
+            width: 64px;
+            height: 64px;
+            position: fixed;
+            right: 0;
+            margin-right: 12px;
+
+        }
+    }
+}

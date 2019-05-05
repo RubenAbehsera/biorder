@@ -1,0 +1,1281 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.landing {
+  background: url(../assets/images/backgroundpage1.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing__title {
+  font-family: "League Spartan", sans-serif;
+  font-size: 45px;
+  color: #eeaf5a;
+  padding-top: 195px;
+  margin-left: 12px;
+}
+
+.landing__textOne {
+  font-family: "LibreBaskerville";
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: left;
+  color: #eeaf5a;
+  margin-left: 12px;
+}
+
+.landing__textTwo {
+  font-family: "LibreBaskerville";
+  font-size: 24px;
+  line-height: 1.21;
+  text-align: right;
+  color: #eeaf5a;
+  padding-top: 100px;
+  margin-right: 12px;
+  margin-top: 80px;
+}
+
+.landing__btn {
+  width: 210px;
+  height: 68px;
+  opacity: 0.74;
+  border-radius: 40px;
+  border: solid 1px #707070;
+  background-color: #000000;
+  margin-top: 55px;
+  margin-left: 81px;
+}
+
+.landing__btn-text {
+  font-family: "LibreBaskerville";
+  font-size: 28px;
+  font-weight: bold;
+  color: #eeaf5a;
+  margin: 0 auto;
+}
+
+.landing__footer {
+  height: 55px;
+  opacity: 0.52;
+  background-color: #000000;
+  margin-top: 45px;
+}
+
+.landing__footer-textOne {
+  width: 218px;
+  height: 20px;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0 auto;
+  opacity: 1;
+  color: #fcfdfd;
+  margin-top: 3px;
+  text-align: center;
+}
+
+.landing__footer-textTwo {
+  width: 218px;
+  height: 20px;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  line-height: 1.25;
+  margin: 0 auto;
+  opacity: 1;
+  color: #fcfdfd;
+  text-align: center;
+}
+
+.arrow {
+  margin-top: 44px;
+  margin-left: 12px;
+}
+
+.background {
+  margin-top: 64px;
+  width: 375px;
+  height: 303px;
+  border: solid 1px #707070;
+  background: url("/assets/images/formule-classic.png") no-repeat;
+  background-color: #1a1100;
+}
+
+.background__textOne {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  color: #fcfdfd;
+  margin-top: 125px;
+}
+
+.background__textTwo {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfdfd;
+}
+
+.text {
+  width: 302px;
+  height: 100px;
+  opacity: 0.91;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  margin: 0 auto;
+  color: #af612a;
+  margin-top: 72px;
+}
+
+.discover {
+  width: 149px;
+  height: 24px;
+  font-family: "LibreBaskerville";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 auto;
+  margin-top: 72px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.arrowOrange {
+  margin-top: 44px;
+  margin-left: 165.5px;
+}
+
+.arrow {
+  margin-top: 44px;
+  margin-left: 12px;
+}
+
+.backgroundTwo {
+  margin-top: 64px;
+  width: 375px;
+  height: 303px;
+  border: solid 1px #707070;
+  background: url("/assets/images/formule-sport.png") no-repeat;
+  background-color: #1a1100;
+}
+
+.backgroundTwo__textOne {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  color: #fcfdfd;
+  margin-top: 125px;
+}
+
+.backgroundTwo__textTwo {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfdfd;
+}
+
+.text {
+  width: 302px;
+  height: 100px;
+  opacity: 0.91;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  margin: 0 auto;
+  color: #af612a;
+  margin-top: 72px;
+}
+
+.discover {
+  width: 149px;
+  height: 24px;
+  font-family: "LibreBaskerville";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 auto;
+  margin-top: 72px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.arrowOrange {
+  margin-top: 44px;
+  margin-left: 165.5px;
+}
+
+.arrow {
+  margin-top: 44px;
+  margin-left: 12px;
+}
+
+.backgroundThree {
+  margin-top: 64px;
+  width: 375px;
+  height: 303px;
+  border: solid 1px #707070;
+  background: url("/assets/images/formule-goodlife.png") no-repeat;
+  background-color: #1a1100;
+}
+
+.backgroundThree__textOne {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  text-align: center;
+  color: #fcfdfd;
+  margin-top: 125px;
+}
+
+.backgroundThree__textTwo {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  line-height: 1.23;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfdfd;
+}
+
+.text {
+  width: 302px;
+  height: 100px;
+  opacity: 0.91;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  line-height: 1.25;
+  text-align: center;
+  margin: 0 auto;
+  color: #af612a;
+  margin-top: 72px;
+}
+
+.discover {
+  width: 149px;
+  height: 24px;
+  font-family: "LibreBaskerville";
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin: 0 auto;
+  margin-top: 72px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.arrowOrange {
+  margin-top: 44px;
+  margin-left: 165.5px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 44px;
+  margin-top: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.header-choose {
+  margin-bottom: 0px;
+}
+
+.header__arrow {
+  margin-left: 12px;
+}
+
+.header__title {
+  font-family: "League Spartan", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 12px;
+  color: #eeaf5a;
+  margin-left: 67.5px;
+}
+
+.header__title-choose {
+  margin-left: 35.5px;
+}
+
+.form__label {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 12px;
+}
+
+.form__input {
+  width: 351px;
+  height: 44px;
+  opacity: 0.48;
+  border-radius: 14px;
+  background-color: #bdbea0;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+
+.form__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.form__box-item-title {
+  width: 48px;
+  height: 22px;
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 12px;
+}
+
+.form__box-item-input {
+  width: 103px;
+  height: 44px;
+  opacity: 0.48;
+  border-radius: 14px;
+  background-color: #bdbea0;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.form__box-item-input--crypto {
+  margin-left: 34px;
+}
+
+.form__box-item--code {
+  margin-left: 123px;
+}
+
+.form__box-item--crypto {
+  margin-left: 57px;
+}
+
+.form__submit {
+  width: 230px;
+  height: 44px;
+  border-radius: 18px;
+  border: solid 1px #707070;
+  background-color: #dfdfd0;
+  -webkit-text-stroke: 1px #eeaf5a;
+  margin-left: 79px;
+  font-family: "LibreBaskerville";
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.login {
+  margin-left: 12px;
+  width: 351px;
+  margin-top: 131px;
+}
+
+.login__label {
+  width: 64px;
+  height: 32px;
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.login__input {
+  width: 351px;
+  height: 2px;
+  border-radius: 14px;
+  background-color: #dfdfd0;
+  border: none;
+  margin-top: 49px;
+}
+
+.login__eye {
+  position: fixed;
+  right: 0;
+  margin-right: 12px;
+}
+
+.login__forget {
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  text-align: center;
+  color: #eeaf5a;
+  position: fixed;
+  right: 0;
+  margin-right: 12px;
+}
+
+.login__submit {
+  width: 230px;
+  height: 56px;
+  border-radius: 18px;
+  border: solid 1px #707070;
+  background-color: #dfdfd0;
+  margin-top: 164px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 72.5px;
+}
+
+.home__header {
+  width: 216px;
+  height: 100px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #eeaf5a;
+  margin: 32px auto;
+}
+
+.home__subscription {
+  width: 112px;
+  height: 20px;
+  opacity: 0.78;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #eeaf5a;
+  margin: 40px auto;
+}
+
+.home__state {
+  width: 68px;
+  height: 32px;
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #68912e;
+  margin: 8px auto;
+}
+
+.home__news {
+  width: 354px;
+  height: 32px;
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+  margin: 40px auto;
+}
+
+.home__box {
+  width: 351px;
+  height: 200px;
+  margin-left: 12px;
+  background-size: 100%;
+  margin-bottom: 8px;
+}
+
+.home__box-one {
+  background: url("/assets/images/lasagne.png") no-repeat;
+}
+
+.home__box-two {
+  background: url("/assets/images/beef.png") no-repeat;
+}
+
+.home__box-three {
+  background: url("/assets/images/tiramisu.png") no-repeat;
+  margin-bottom: 60px;
+}
+
+.home__box-title {
+  font-family: "LibreBaskerville";
+  font-size: 26px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.23;
+  color: #fcfdfd;
+  text-align: center;
+  padding-top: 82px;
+}
+
+.home__box-date {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #fcfdfd;
+  text-align: right;
+  margin-top: 68px;
+}
+
+.home__navbar {
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  background: #fcfdfd;
+  width: 100%;
+}
+
+.home__navbar-itemOne {
+  margin-left: 49px;
+}
+
+.home__navbar-itemTwo {
+  margin-left: 70px;
+  margin-top: 5px;
+}
+
+.home__navbar-itemThree {
+  position: fixed;
+  right: 0;
+  margin-right: 41.5px;
+}
+
+.choose__date {
+  font-family: Helvetica;
+  font-size: 16px;
+  font-stretch: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #040505;
+}
+
+.choose__restart {
+  width: 35px;
+  height: 35px;
+  margin: 16px 170px auto;
+}
+
+.choose__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.choose__box-two {
+  margin-top: 47px;
+}
+
+.choose__box-itemOne {
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #eeaf5a;
+  margin-left: 12px;
+}
+
+.choose__box-itemTwo {
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #eeaf5a;
+  position: fixed;
+  right: 0;
+  margin-right: 12px;
+}
+
+.choose__plates {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.choose__plates-item {
+  width: 109px;
+  height: 109px;
+  background-size: 100%;
+  margin-left: 12px;
+  margin-top: 23px;
+  -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.choose__plates-item-one {
+  background: url("/assets/images/breakfastOne.png") no-repeat;
+}
+
+.choose__plates-item-two {
+  background: url("/assets/images/breakfastTwo.png") no-repeat;
+}
+
+.choose__plates-item-three {
+  background: url("/assets/images/breakfastThree.png") no-repeat;
+}
+
+.choose__plates-item-four {
+  background: url("/assets/images/mealOne.png") no-repeat;
+}
+
+.choose__plates-item-five {
+  background: url("/assets/images/mealTwo.png") no-repeat;
+}
+
+.choose__plates-item-six {
+  background: url("/assets/images/mealThree.png") no-repeat;
+}
+
+.choose__plates-item-seven {
+  background: url("/assets/images/dessertOne.png") no-repeat;
+}
+
+.choose__plates-item-height {
+  background: url("/assets/images/dessertTwo.png") no-repeat;
+}
+
+.choose__plates-item-nine {
+  background: url("/assets/images/dessertThree.png") no-repeat;
+}
+
+.choose__plates-item-circle {
+  background-color: #9fe271;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-left: 73px;
+  margin-top: 73px;
+}
+
+.choose__plates-item-number {
+  font-family: "LibreBaskerville";
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.choose__btn {
+  width: 243px;
+  height: 42px;
+  border-radius: 11px;
+  -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #eeaf5a;
+  margin: 25px auto;
+}
+
+.choose__btn-text {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #fcfdfd;
+  padding-top: 8px;
+}
+
+.headerRecipe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerRecipe__arrow {
+  margin-top: 44px;
+  margin-left: 12px;
+  height: 44px;
+  width: 44px;
+}
+
+.headerRecipe__title {
+  margin-top: 46px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+  margin-right: 22px;
+}
+
+.recipe__image {
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+.recipe__text {
+  margin-left: 12px;
+  width: 320px;
+  opacity: 0.75;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: left;
+  color: #040505;
+}
+
+.recipe__text-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.recipe__text-gramme {
+  color: #af622b;
+}
+
+.recipe__text-mid {
+  margin-top: 24px;
+}
+
+.recipe__composition {
+  margin-left: 12px;
+  width: 346px;
+  opacity: 1;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  color: #af612a;
+}
+
+.recipe__edit {
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 347px;
+  height: 46px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  color: #040505;
+}
+
+.explanation__title {
+  font-family: "League Spartan", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #eeaf5a;
+  margin-top: 44px;
+  text-align: center;
+}
+
+.explanation__box {
+  background: url("/assets/images/backgroundCard.png") no-repeat;
+  background-position: center;
+  width: 375px;
+  height: 295px;
+  background-color: #000000;
+  margin-top: 31px;
+}
+
+.explanation__box-top {
+  font-family: "LibreBaskerville";
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: #fcfdfd;
+  padding-top: 54px;
+}
+
+.explanation__box-mid {
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #fcfdfd;
+  margin-top: 54px;
+}
+
+.explanation__box-bot {
+  width: 288px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #fcfdfd;
+  padding-top: 54px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.explanation__first {
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #040505;
+  margin-top: 22px;
+}
+
+.explanation__second {
+  padding-top: 54px;
+  width: 274px;
+  height: 100px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #000000;
+  margin: 0 auto;
+}
+
+.explanation__three {
+  padding-top: 112px;
+  width: 211px;
+  height: 20px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #040505;
+  margin: 0 auto;
+}
+
+.explanation__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 32px;
+}
+
+.explanation__bottom-item {
+  width: 109px;
+  height: 88px;
+  border-radius: 10px;
+  background-color: #eeaf5a;
+  margin-left: 12px;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #fcfdfd;
+  padding-top: 35px;
+}
+
+.explanation__bottom-item-three {
+  padding-top: 25px;
+}
+
+.headerState {
+  margin-top: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerState__arrow {
+  margin-left: 12px;
+}
+
+.headerState__title {
+  height: 32px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 10.5px;
+}
+
+.headerState__number {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #040505;
+}
+
+.state__title {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #eeaf5a;
+  margin-top: 32px;
+  margin-left: 12px;
+  -webkit-text-decoration: underline #eeaf5a;
+          text-decoration: underline #eeaf5a;
+}
+
+.state__date {
+  margin-top: 16px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  color: #040505;
+  margin-left: 12px;
+}
+
+.state__resume {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #eeaf5a;
+  -webkit-text-decoration: underline #eeaf5a;
+          text-decoration: underline #eeaf5a;
+  margin-left: 12px;
+}
+
+.state__meal {
+  margin-left: 12px;
+}
+
+.state__meal-title {
+  margin-top: 16px;
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #eeaf5a;
+  margin-bottom: 8px;
+}
+
+.state__meal-item {
+  height: 24px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #040505;
+}
+
+.state__delivery {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #eeaf5a;
+  -webkit-text-decoration: underline #eeaf5a;
+          text-decoration: underline #eeaf5a;
+  margin-left: 12px;
+}
+
+.state__arrived {
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: left;
+  color: #040505;
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+.state__button {
+  width: 243px;
+  height: 42px;
+  border-radius: 11px;
+  -webkit-box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #eeaf5a;
+  margin: 40px auto;
+}
+
+.state__button-text {
+  width: 174px;
+  height: 20px;
+  font-family: "LibreBaskerville";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+  color: #fcfdfd;
+  padding-top: 11px;
+  margin-left: 36px;
+}
+
+.headerUser {
+  margin-top: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.headerUser__arrow {
+  margin-left: 12px;
+}
+
+.headerUser__title {
+  height: 32px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 10.5px;
+}
+
+.userForm {
+  padding-top: 26px;
+}
+
+.userForm__label {
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+
+.userForm__input {
+  width: 351px;
+  height: 44px;
+  opacity: 0.48;
+  border-radius: 14px;
+  background-color: #bdbea0;
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+
+.userForm__box {
+  margin-top: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 12px;
+}
+
+.userForm__box-item-label {
+  width: 48px;
+  height: 22px;
+  font-family: "LibreBaskerville";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 12px;
+}
+
+.userForm__box-item-input {
+  width: 103px;
+  height: 44px;
+  opacity: 0.48;
+  border-radius: 14px;
+  background-color: #bdbea0;
+  margin-top: 8px;
+  margin-left: 12px;
+}
+
+.userForm__box-item-input--crypto {
+  position: fixed;
+  right: 0;
+  margin-right: 12px;
+}
+
+.userForm__submit {
+  width: 230px;
+  height: 44px;
+  border-radius: 18px;
+  border: solid 1px #707070;
+  background-color: #dfdfd0;
+  -webkit-text-stroke: 1px #eeaf5a;
+  margin-left: 79px;
+  font-family: "LibreBaskerville";
+  font-size: 28px;
+  line-height: 1.2;
+  text-align: center;
+  color: #eeaf5a;
+}
+
+.headerHistoric {
+  padding-top: 44px;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.headerHistoric__title {
+  width: 222px;
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 1.23;
+  text-align: center;
+  color: #eeaf5a;
+  margin-left: 32.5px;
+}
+
+.historic {
+  margin-left: 12px;
+}
+
+.historic__box {
+  width: 351px;
+  height: 139px;
+  -webkit-box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+  background-color: #eeaf5a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 24px;
+}
+
+.historic__box--color {
+  background: #68912e;
+}
+
+.historic__box-text {
+  height: 90px;
+  width: 207px;
+  margin-left: 72px;
+  margin-top: 24px;
+  text-align: center;
+  color: #fcfdfd;
+}
+
+.historic__box-text-title {
+  width: 207px;
+  height: 22px;
+  font-family: "LibreBaskerville";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.22;
+  text-align: center;
+  color: #fcfdfd;
+  margin: 0 auto;
+}
+
+.historic__box-text-state {
+  width: 170px;
+  height: 44px;
+  font-family: LibreBaskerville;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fcfdfd;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.historic__box-img {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  right: 0;
+  margin-right: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

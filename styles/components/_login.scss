@@ -1,0 +1,55 @@
+
+.login{ 
+    margin-left: 12px;
+    width: 351px;
+    margin-top: 131px;
+    &__label{
+        width: 64px;
+        height: 32px;
+        font-family: $font-main;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.23;
+        text-align: center;
+        color: $orange;
+    }
+    &__input{
+        width: 351px;
+        height: 2px;
+        border-radius: 14px;
+        background-color: #dfdfd0;
+        border: none;
+        margin-top: 49px;
+    }
+    &__eye{
+        position: fixed;
+        right: 0;
+        margin-right: 12px;
+    }
+    &__forget{
+        font-family: $font-main;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.22;
+        text-align: center;
+        color: $orange;
+        position: fixed;
+        right: 0;
+        margin-right: 12px;
+    }
+    &__submit{
+        width: 230px;
+        height: 56px;
+        border-radius: 18px;
+        border: solid 1px #707070;
+        background-color: #dfdfd0;
+        margin-top: 164px;
+        font-family: $font-title;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.22;
+        text-align: center;
+        color:$orange;
+        margin-left: 72.5px;
+    }
+}

@@ -1,0 +1,114 @@
+.home {
+
+    &__header {
+        width: 216px;
+        height: 100px;
+        font-family: $font-title;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        color: $orange;
+        margin: 32px auto;
+    }
+
+    &__subscription {
+        width: 112px;
+        height: 20px;
+        opacity: 0.78;
+        font-family: $font-main;
+        font-size: 16px;
+        line-height: 1.25;
+        text-align: center;
+        color: $orange;
+        margin: 40px auto;
+    }
+
+    &__state {
+        width: 68px;
+        height: 32px;
+        font-family: $font-main;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.23;
+        text-align: center;
+        color: #68912e;
+        margin: 8px auto;
+    }
+
+    &__news {
+        width: 354px;
+        height: 32px;
+        font-family: $font-main;
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 1.23;
+        text-align: center;
+        color: $orange;
+        margin: 40px auto;
+    }
+
+    &__box {
+        width: 351px;
+        height: 200px;
+        margin-left: 12px;
+        background-size: 100%;
+        margin-bottom: 8px;
+
+        &-one {
+            background: url('/assets/images/lasagne.png')no-repeat;
+        }
+
+        &-two {
+            background: url('/assets/images/beef.png')no-repeat;
+        }
+
+        &-three {
+            background: url('/assets/images/tiramisu.png')no-repeat;
+            margin-bottom: 60px;
+        }
+
+        &-title {
+            font-family: $font-main;
+            font-size: 26px;
+            font-weight: bold;
+            font-style: normal;
+            line-height: 1.23;
+            color: $white;
+            text-align: center;
+            padding-top: 82px;
+        }
+
+        &-date {
+            font-family: Helvetica;
+            font-size: 16px;
+            line-height: 1.19;
+            color: $white;
+            text-align: right;
+            margin-top: 68px;
+        }
+    }
+
+    &__navbar{
+        height: 50px;
+        position: fixed;
+        bottom: 0;
+        background: $white;
+        width: 100%;
+
+        &-itemOne{
+            margin-left: 49px;
+        }
+
+        &-itemTwo{
+            margin-left: 70px;
+            margin-top: 5px;
+        }
+
+        &-itemThree{
+            position: fixed;
+            right: 0;
+            margin-right: 41.5px;
+        }
+    }
+}
